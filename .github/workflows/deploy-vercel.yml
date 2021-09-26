@@ -26,5 +26,6 @@ jobs:
 
     - name: Build
       run: |
+        echo $ZEIT_TOKEN
         npm install
         npm run deploy
