@@ -27,4 +27,4 @@ jobs:
       run: |
         echo $ZEIT_TOKEN
         npm install
-        npm deploy
+        npm run deploy
